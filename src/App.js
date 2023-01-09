@@ -26,11 +26,11 @@ import { TbTemperatureCelsius } from "react-icons/tb";
 import { ImSpinner9 } from "react-icons/im";
 
 // api key
-const APIkey = "bcf2048bc3be154bded8f277f580ba2e";
+const APIkey = "ec0a513a739e4605205f28895a38dc18";
 
 const App = () => {
   const [data, setData] = useState(null);
-  const [location, setLocation] = useState("Lagos");
+  const [location, setLocation] = useState("abuja");
   const [inputValue, setInputValue] = useState("");
   const [animate, setAnimate] = useState(false);
   const [loading, setLoading] = useState(false);
